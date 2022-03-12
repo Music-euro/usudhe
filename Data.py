@@ -33,8 +33,8 @@ class Data:
             InlineKeyboardButton("طريقه الاستخدام ❔", callback_data="help"),
             InlineKeyboardButton(" حول", callback_data="about")
         ],
-        [InlineKeyboardButton("🇮🇳 لشراء ملف البوت 🇮🇳", url="https://t.me/MACS31")],
-        [InlineKeyboardButton("🇮🇳 بوت اختراق حساب تلي بكود تريمكس 🇮🇳", url="https://t.me/Hack_MACSBot")],
+        [InlineKeyboardButton("📁 لشراء ملف البوت 📁", url="https://t.me/MACS31")],
+        [InlineKeyboardButton("لتنصيب تليثون على حسابك", url="https://t.me/z_0_2")],
     ]
 
     # Help Message
