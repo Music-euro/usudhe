@@ -4,41 +4,41 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-هاي {}
-
-مرحبا بك في بوت {}
-
-يمكنك استخراج في هذا البوت استخراج كود pyrogram او telethon بكل سهوله وامان
+✘ ᴅᴇᴀʀ {}
+‣ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʙᴏᴛ {}
+‣ ʏᴏᴜ ᴄᴀɴ ᴇxᴛʀᴀᴄᴛ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ
+‣ ʙɪɢʀᴀᴍ ᴄᴏᴅᴇ
+‣ ᴛʀɪᴍɪx ᴄᴏᴅᴇ
+‣ ᴛʜᴇ ʀᴏʙᴏᴛ ᴡᴏʀᴋᴤ ᴠᴇʀʏ ᴡᴇʟʟ
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("⚜ بدء استخراج كود الجلسه ⚜", callback_data="generate")],
-        [InlineKeyboardButton(text=" Back ", callback_data="home")]
+        [InlineKeyboardButton("🌐 ¦ اضـغـط لـبـدا استـخـراج جلسة", callback_data="generate")],
+        [InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="ʜᴏᴍᴇ")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 بدء استخراج كود الجلسه 🔥", callback_data="generate")]
+        [InlineKeyboardButton("🌐 ¦ اضـغـط لـبـدا استـخـراج جلسة", callback_data="generate")]
     ]
 
     support_button = [
-        [InlineKeyboardButton("⚜ الدعم الفني ⚜", url="https://t.me/MACS36")]
+        [InlineKeyboardButton("🗣 ¦ الـدعـم الـفـنـي", url="https://t.me/Y_408")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 بدء استخراج كود الجلسه 🔥", callback_data="generate")],
-        [InlineKeyboardButton("👨‍💻 قناتي 👨‍💻", url="https://t.me/MACS37")],
+        [InlineKeyboardButton("🌐 ¦ اضـغـط لـبـدا استـخـراج جلسة", callback_data="generate")],
+        [InlineKeyboardButton("⚙¦الــســورس", url="https://t.me/TELEMEX")],
         [
-            InlineKeyboardButton("طريقه الاستخدام ❔", callback_data="help"),
-            InlineKeyboardButton(" حول", callback_data="about")
+            InlineKeyboardButton("❓¦طـريـقـه الاسـتـخـدام", callback_data="help"),
+            InlineKeyboardButton("💾¦مـعـلومـات", callback_data="about")
         ],
-        [InlineKeyboardButton("📁 لشراء ملف البوت 📁", url="https://t.me/MACS31")],
-        [InlineKeyboardButton("لتنصيب تليثون على حسابك", url="https://t.me/z_0_2")],
+        [InlineKeyboardButton("🔮¦مـالـك الـبـوت", url="https://t.me/Y_408")],
     ]
 
     # Help Message
-    HELP = """
+    Help = """
 » قم بارسال /generate ثم اضغط علي بدء استخراج كود الجلسه!
 » قم باختيار النوع الذي تريده; [البايروكرام/تليثون - كود تريمكس]
 » ثم قم بارسال الاشياء المطلوبه للحصول علي الكود في الرسائل المحفوظة.
@@ -46,13 +46,12 @@ class Data:
 
     # About Message
     ABOUT = """
-👨‍💻 **معلوماتي** 
+‍ **💾¦مـعـلومـات** 
 
-روبوت برقية لإنشاء جلسة بيروجرام وسلسلة تيليثون...
+⚡¦بـوت استخـراج كـود تيرمكـس خـاص بســورس التليـثون وكــود بـايــروجـرام خـاص بـسـورس الـمـيـوزك🎶
 
-[Pyrogram](docs.pyrogram.org)
-[Telethon](docs.telethon.org)
+🌀¦قـنـاه الـبـوت : (t.me/TELEMEX)
+🌏¦اللـغــه(www.python.org/)
 
-Language : [Python](www.python.org)
-            **قناتي ~ **@MACS37
+👨🏼‍💻¦الـمـبـرمــج(t.me/Y_408)
 """
